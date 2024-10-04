@@ -1,0 +1,41 @@
+.extendable-textarea {
+    width: 100%;
+    min-height: 200px;
+    max-height: none; /* No maximum height */
+    overflow: hidden; /* Hide scrollbars */
+    resize: false; /* Disable manual resizing */
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 0.375rem; /* rounded-md class */
+    background-color: transparent;
+    color: #ffffff; /* text-white class */
+    border: 1px solid #ffffff; /* border-white class */
+    transition: all 0.3s;
+    
+}
+
+.peer{
+    border: 1px solid #ffffff;
+    
+    transition: all 0.3s;
+}
+
+.extendable-textarea:focus {
+    outline: none;
+    border-width: 2px;
+}
+
+.under-container {
+    margin-top: 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important; /* Transparent background */
+    box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important; /* For other browsers */
+    -webkit-text-fill-color: white !important; /* Ensure text color is preserved */
+    transition: background-color 5000s ease-in-out 0s;
+}
