@@ -1,0 +1,18 @@
+
+.landing-page-backg-grad{
+/* background: linear-gradient(to bottom, #0285AD, #006482,#004053) */
+background: linear-gradient(to bottom, #017EA3, #004357)
+
+
+}
+
+
+
+  @media (max-width: 768px) {
+    .landing-page {
+      background: linear-gradient(to bottom, #017EA3, #004357);
+    }
+  }
+  
+  /* clip-path: polygon(58% 0, 100% 0, 100% 35%, 100% 100%, 67% 100%, 2% 98%, 4% 79%, 10% 52%, 23% 25%, 41% 8%); */
+  
