@@ -111,7 +111,7 @@ function NavBar() {
             "https://res.cloudinary.com/dvobpdvef/image/upload/v1721207197/Important%20Data/lsockmshbnph7m6eo6fn.png"
           }
           alt=""
-          className="w-[150px] "
+          className="w-[150px] h-[28px] "
         />
       </button>
 

@@ -8,6 +8,8 @@ import Loader from "../../component/layouts/Loader/Loader"
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import GoogleMap from "./Joseph_Change/GoogleMap";
+import GoogleReviews from "./Joseph_Change/GoogleReviews";
 function Home({loading}) {
 
   gsap.registerPlugin(useGSAP);
@@ -23,8 +25,10 @@ function Home({loading}) {
        <> <HomeProducts/>
       </>
       }
-       <ServicesPage/>
+       <ServicesPage />
        <AboutUsPage />
+       <GoogleMap />
+       <GoogleReviews />
        <ContactUsPage/>
       </>
    

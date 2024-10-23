@@ -18,7 +18,7 @@ function ServicesPage() {
         scrollTrigger: {
           trigger:card,
          
-          start:"top 60%", 
+          start:"top 90%", 
           end: "+=90",
         
         
@@ -34,7 +34,7 @@ function ServicesPage() {
         trigger: "#animation-line-services-up",
         scroller: "body",
         start: "top 50%",
-        end: "top 0%",
+        end: "top 90%",
 
         scrub: true,
       },
@@ -68,13 +68,6 @@ function ServicesPage() {
       name: "Installation Services",
       description:
         "Professional installation of new filtration systems for optimal performance. Our skilled team ensures a seamless setup, tailored to your specific needs and home environment. With Fit and Drink, you can trust that your system will be installed correctly and efficiently, providing you with the best water quality from day one",
-    },
-    {
-      img: "https://res.cloudinary.com/dnibqnawe/image/upload/f_auto,q_auto/v1/FitAndDrink/sl3j3dueufp8xnwalb4f",
-      name: "System Upgrades:",
-      title: "System Upgrades",
-      description:
-        "Enhance your existing setup with the latest filtration technology for improved efficiency and better-tasting water. Our upgrades ensure your system stays ahead of the curve, delivering the highest quality water for you and your family",
     },
     {
       img: "https://res.cloudinary.com/dvobpdvef/image/upload/f_auto,q_auto/v1/Important%20Data/ugxhswrkpuviqtbpvbsh",
