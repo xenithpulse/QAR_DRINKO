@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "client",
+      "use": "@vercel/static-build"
+    },
+    {
+      "src": "server/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "server/server.js"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://khizarameer890:yOoAyBkNoHd238Cd@cluster0.99mhnqt.mongodb.net/fitanddrink",
+    "PORT": "4000",
+    "CLOUDINARY_CLOUD_NAME": "dcsk6j16i",
+    "CLOUDINARY_API_KEY": "273635426777177",
+    "CLOUDINARY_API_SECRET": "2zTp3Km3JkMLlEbpQqQ1g8PANnk",
+    "NODE_ENV": "DEVELOPMENT",
+    "SMPT_MAIL": "khizarameer890@gmail.com",
+    "SMPT_PASSWORD": "gasauxihziysabdr",
+    "ADMIN_MAIL": "fitdrinktrading@gmail.com",
+    "JWT_SECRET": "sakdjaksjdhkasjnoasdoasdjoas"
+  }
+}
