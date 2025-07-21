@@ -30,7 +30,7 @@ function ProductPage() {
   };
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0});
     if (error) {
       toast.error(errorMessage);
       navigate("/");
